@@ -1,0 +1,29 @@
+{
+  "name": "shopify",
+  "integrationName": "shopify",
+  "scripts": {
+    "type:check": "tsc --noEmit",
+    "version": "bp --version",
+    "login": "bp login",
+    "gen": "bp gen",
+    "deploy": "bp deploy"
+  },
+  "keywords": [],
+  "private": true,
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@botpress/client": "0.16.1",
+    "@botpress/sdk": "0.8.7",
+    "@sentry/cli": "^2.31.2",
+    "axios": "^1.6.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@botpress/cli": "^0.8.10",
+    "@types/node": "^18.19.33",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724"
+}
